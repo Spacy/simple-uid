@@ -6,7 +6,7 @@ import time
 2. ID基本按照生成时间递增
 '''
 class Uniqid:
-    def __init__(self, counter_bit=8, time_shift=2, time_diff=363139923):
+    def __init__(self, counter_bit=8, time_shift=2, time_diff=1363139923):
         '''
         counter_bit: 计数器位数
         time_shift: 时间戳左移量,time_shift=1: 近70年不会重复，time_shift=2: 34年不会重复
